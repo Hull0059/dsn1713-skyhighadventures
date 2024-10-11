@@ -33,7 +33,7 @@
  }
 
  .btn-light:hover{
-    background-color: rgb(253, 99, 44);
+    background-color: rgb(61, 150, 232);
     color: white;
  }
 
@@ -43,4 +43,51 @@
     stroke: none;
     border: 0;
  }
+
+.navbar-toggler{
+   border: none;
+}
+
+.banner-container img {
+   object-fit: cover;
+  
+}
+
+.banner-container{
+   background-color: blanchedalmond;
+   color:rgb(2, 71, 132);
+}
+
+.rfs-8{
+   color: rgb(24, 67, 142);
+}
+
+
+@media screen and (min-width: 430px){
+   .lc-block {
+      text-align: center;
+      }  
+      .rfs-8{
+         max-width: 600px; 
+      
+      }
+
+
+}
+
+
+@media screen and (min-width: 768px){
+.lc-block {
+text-align: center;
+}
+.rfs-8{
+   max-width: 600px; 
+   padding: 1.5px; 
+   margin: 0 auto; 
+   
+}
+
+
+}
+   
 
